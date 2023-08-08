@@ -137,15 +137,16 @@ html {
     .home {
         background-image: url(../img/hero-bg.png);
         background-attachment: fixed;
+        height: calc(100vh - 40px);
         background-size: 100%;
-        background-repeat: no-repeat;
+        margin-top: 40px;
     }
 
     .home .caption h1 {
         font-size: 25px;
     }
     .home .caption img{
-        width: 550px;
+        width: 300px;
     }
     .home .caption button{
         width: 150px;
@@ -205,7 +206,8 @@ html {
 }
 @media(max-width:750px){
     .about p{
-        margin: 80px 100px;
+        margin: 80px 50px;
+        font-size: 30px;
     }
     .about .card {
         width: 90%;
@@ -268,7 +270,7 @@ html {
 
 @media(max-width:750px){
     .features h2{
-        font-size: 45px;
+        font-size: 50px;
     }
     .features .cards .card {
         width: 90%;
